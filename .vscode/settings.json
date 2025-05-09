@@ -1,0 +1,4 @@
+{
+    "editor.defaultFormatter": "Umoxfo.vscode-w3cvalidation",
+    "vscode-w3cvalidation.trace.server": "messages"
+}
