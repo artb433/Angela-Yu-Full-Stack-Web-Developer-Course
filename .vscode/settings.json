@@ -1,4 +1,7 @@
 {
     "editor.defaultFormatter": "Umoxfo.vscode-w3cvalidation",
-    "vscode-w3cvalidation.trace.server": "messages"
+    "vscode-w3cvalidation.trace.server": "messages",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
