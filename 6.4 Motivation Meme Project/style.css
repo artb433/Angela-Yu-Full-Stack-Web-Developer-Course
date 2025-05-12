@@ -1,0 +1,27 @@
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Libra Baskerville', serif;
+}
+
+div {
+    /* Set the width to 50% to ensure the div is responsive and centered */
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Libra Baskerville', serif;
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+img {
+    border: 5px solid #fff;
+    width: 100%;
+}
+
