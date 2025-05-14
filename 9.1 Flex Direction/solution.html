@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8b+4g5e5c5e5e5e5e5e5e5e5e5e5e5e5e5"
+      crossorigin="anonymous"
+    />
+    <title>Flex Direction</title>
+    <style>
+      .container {
+        color: white;
+        border: 5px solid gold;
+        display: inline-flex;
+        flex-direction: column;
+      }
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flex Direction</title>
-  <style>
-    .container {
-      color: white;
-      border: 5px solid gold;
-      display: inline-flex;
-      flex-direction: column;
-    }
+      .container > * {
+        flex-basis: 100px;
+      }
 
-    .container > * {
-      flex-basis: 100px;
-    }
+      .red {
+        background-color: #eb4d4b;
+      }
 
-    .red {
-      background-color: #eb4d4b;
-    }
+      .orange {
+        background-color: #f0932b;
+      }
 
-    .orange {
-      background-color: #f0932b;
-    }
+      .yellow {
+        background-color: #f6e58d;
+      }
 
-    .yellow {
-      background-color: #f6e58d;
-    }
+      .green {
+        background-color: #6ab04c;
+      }
 
-    .green {
-      background-color: #6ab04c;
-    }
+      .blue {
+        background-color: #4834d4;
+      }
 
-    .blue {
-      background-color: #4834d4;
-    }
+      .indigo {
+        background-color: #30336b;
+      }
 
-    .indigo {
-      background-color: #30336b;
-    }
+      .purple {
+        background-color: #be2edd;
+      }
+    </style>
+  </head>
 
-    .purple {
-      background-color: #be2edd;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <div class="red">Red</div>
-    <div class="orange">Orange</div>
-    <div class="yellow">Yellow</div>
-    <div class="green">Green</div>
-    <div class="blue">Blue</div>
-    <div class="indigo">Indigo</div>
-    <div class="purple">Purple</div>
-  </div>
-</body>
-
+  <body>
+    <div class="container">
+      <div class="red">Red</div>
+      <div class="orange">Orange</div>
+      <div class="yellow">Yellow</div>
+      <div class="green">Green</div>
+      <div class="blue">Blue</div>
+      <div class="indigo">Indigo</div>
+      <div class="purple">Purple</div>
+    </div>
+  </body>
 </html>
